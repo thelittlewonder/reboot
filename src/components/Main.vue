@@ -203,6 +203,11 @@ export default {
       color: #ff4c4c;
     }
   }
+  @media screen and (max-width: 768px) {
+    .error{
+      top: 55%!important;
+    }
+  }
   .success {
     position: absolute;
     left: 50%;

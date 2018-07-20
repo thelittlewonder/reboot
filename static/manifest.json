@@ -1,6 +1,6 @@
 {
-  "name": "reboot",
-  "short_name": "reboot",
+  "name": "Reboot",
+  "short_name": "Reboot",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",

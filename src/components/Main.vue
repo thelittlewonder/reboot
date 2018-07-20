@@ -2,7 +2,7 @@
 <div class="main" @mousemove="onMove()">
 
   <div class="welcome" v-if="sessionState === 'inactive'">
-    <img src="../assets/reboot-logo.svg"/>
+    <img src="../assets/reboot-logo.svg" alt="reboot logo"/>
     <h2>Take a break from all the noise and appreciate the beauty of silence</h2>
     <div class="controls">
       <button @click="sessionDuration=2;" :class="sessionDuration===2?'btn-active':'btn-inactive'">2 minutes</button>

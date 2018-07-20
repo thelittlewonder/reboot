@@ -32,6 +32,10 @@
     </div>
   </transition>
 
+  <footer v-if="sessionState === 'completed' || sessionState === 'inactive'">
+    <a href="https://www.github.com/littlewonder/reboot" target="_blank">github.com/reboot</a>
+  </footer>
+
 </div>
 </template>
 
@@ -99,7 +103,7 @@ export default {
 <style lang="scss" scoped>
 .main {
   border-top: 3px solid #34bf49;
-  height: 100vh;
+  height: calc(100vh - 34px);
   background-color: #fefefe;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -166,6 +170,26 @@ export default {
       }
     }
   }
+  footer {
+    text-align: center;
+    height: 34px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    a {
+      text-decoration: none;
+      color: rgba(#000, 0.25);
+      font-weight: 300;
+      transition-property: all;
+      transition-duration: 0.25s;
+      transition-timing-function: ease-in-out;
+      &:hover {
+        color: #34bf49;
+      }
+    }
+  }
   .timer {
     position: absolute;
     left: 50%;
@@ -204,8 +228,8 @@ export default {
     }
   }
   @media screen and (max-width: 768px) {
-    .error{
-      top: 55%!important;
+    .error {
+      top: 55% !important;
     }
   }
   .success {

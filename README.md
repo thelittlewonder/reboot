@@ -1,8 +1,10 @@
 # Reboot
 
-> It's okay to take a break
+### It's okay to take a break
 
 https://reboot.netlify.com/
+
+>Inspired from donothingfor2minutes.com
 
 ## Local Setup
 

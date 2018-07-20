@@ -101,6 +101,8 @@ export default {
   border-top: 3px solid #34bf49;
   height: 100vh;
   background-color: #fefefe;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   .welcome {
     text-align: center;
     width: 100%;

@@ -1,6 +1,6 @@
 # Reboot
 
-> Take a break from all the noise and appreciate the beauty of silence
+> It's okay to take a break
 
 https://reboot.netlify.com/
 

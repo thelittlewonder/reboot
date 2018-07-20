@@ -17,9 +17,6 @@ export default {
 </script>
 
 <style>
-html {
-  overflow: hidden;
-}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;

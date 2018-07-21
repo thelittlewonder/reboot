@@ -22,7 +22,7 @@
   <transition name="fade">
     <div class="timer" v-if="sessionState === 'active'">
       <h2>{{displayTime}}</h2>
-      <p>Don’t move your mouse. Just sit back, relax & breathe.</p>
+      <p>Don’t move your cursor. Just sit back, relax & breathe.</p>
     </div>
   </transition>
 

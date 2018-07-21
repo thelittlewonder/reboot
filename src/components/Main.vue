@@ -97,6 +97,14 @@ export default {
         }, 2000);
       }
     }
+  },
+  updated() {
+    //detect tab changes
+    let main = this;
+    window.onfocus = function() {
+      console.log("tab changed");
+      main.onMove();
+    };
   }
 };
 </script>

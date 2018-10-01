@@ -10,6 +10,8 @@ https://reboot.netlify.com/
 
 >Inspired from donothingfor2minutes.com
 
+**Don't forget to upvote on [Product Hunt](https://www.producthunt.com/posts/reboot)**
+
 ## Local Setup
 
 ``` bash

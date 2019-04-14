@@ -33,7 +33,7 @@
   </transition>
 
   <footer v-if="sessionState === 'completed' || sessionState === 'inactive'">
-    <a href="https://www.github.com/littlewonder/reboot" target="_blank">github.com/reboot</a>
+    <a href="https://www.github.com/thelittlewonder/reboot" target="_blank">github.com/reboot</a>
   </footer>
 
 </div>
